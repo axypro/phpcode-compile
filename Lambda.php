@@ -6,6 +6,8 @@
 
 namespace axy\phpcode\compile;
 
+use axy\evil\Evil;
+
 /**
  * Generator for lambda functions
  */
@@ -97,12 +99,11 @@ class Lambda
      * Returns the callback
      *
      * @return callable
-     * @SuppressWarnings(PHPMD.EvalExpression)
      */
     public function getCallback()
     {
         if (!$this->callback) {
-            $this->callback = eval($this->getOuterCode());
+            $this->callback = Evil::execCode($this->getOuterCode());
         }
         return $this->callback;
     }
