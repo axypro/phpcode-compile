@@ -4,4 +4,4 @@ vendor
 phpunit.xml
 phpmd.xml
 tests/tmp/*
-!tests/tpm/.gitkeep
+!tests/tmp/.gitkeep
