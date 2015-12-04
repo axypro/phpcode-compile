@@ -1,5 +1,9 @@
 # axy\phpcode-compile
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/axy/phpcode-compile.svg?style=flat-square)](https://packagist.org/packages/axy/phpcode-compile)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.4-8892BF.svg?style=flat-square)](https://php.net/)
+[![Build Status](https://img.shields.io/travis/axypro/phpcode-compile/master.svg?style=flat-square)](https://travis-ci.org/axypro/phpcode-compile)
+
 Generation PHP code
 
 * GitHub: [axypro/phpcode-compile](https://github.com/axypro/phpcode-compile)
