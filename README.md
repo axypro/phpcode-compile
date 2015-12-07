@@ -1,17 +1,17 @@
 # axy\phpcode-compile
 
+Generation PHP code
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/axy/phpcode-compile.svg?style=flat-square)](https://packagist.org/packages/axy/phpcode-compile)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.4-8892BF.svg?style=flat-square)](https://php.net/)
 [![Build Status](https://img.shields.io/travis/axypro/phpcode-compile/master.svg?style=flat-square)](https://travis-ci.org/axypro/phpcode-compile)
+[![Coverage Status](https://coveralls.io/repos/axypro/phpcode-compile/badge.svg?branch=master&service=github)](https://coveralls.io/github/axypro/phpcode-compile?branch=master)
+[![License](https://poser.pugx.org/axy/phpcode-compile/license)](LICENSE)
 
-Generation PHP code
-
-* GitHub: [axypro/phpcode-compile](https://github.com/axypro/phpcode-compile)
-* Composer: [axy/phpcode-compile](https://packagist.org/packages/axy/phpcode-compile)
-
-PHP 5.4+
-
-The library does not require any dependencies (except composer packages).
+* The library does not require any dependencies (except composer packages).
+* Tested on PHP 5.4+, PHP 7, HHVM (on Linux).
+* Install: `composer require axy/phpcode-compile`.
+* License: [MIT](LICENSE).
 
 ### Lambda
 
